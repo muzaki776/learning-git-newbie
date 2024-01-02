@@ -1,20 +1,21 @@
 ls		    	-> menunjukkan directory terakhir
+cls             -> clear screen
 git init		-> membuat repo baru pada file program
 git status		-> melakukan check status dari git repo
 git clone		-> melakukan clone local git kedalam github ex : git clone https://github.com/muzaki776/learning-git-newbie.git
 git add			-> melakukan staging area local computer ex : "git add index.html", "git add ." untuk staging seluruh file
 git restore		-> undo staging file ex : "git restore --staged <file>..."
 git commit		-> tahap awal untuk memasukkan code kedalam github ex : git commit -m "html file"
-git pull		-> 
 git log			-> memberikan informasi tentang perubahan yang dilakukan beserta authornya siapa
 git remote		-> remote yang berfungsi push file kedalam github, atau dapat juga pull file dari github. ex : pengecekan remote aktif 
                    atau tidak "git remote -v", jika akan menambahkan remote branch menggunakan syntax "git remote add origin https://u(PAT)rl.git"
                    untuk mengubah nama remote branch menggunakan syntax "git remote rename <old> <new>", dan untuk menghapus menggunakan "git remote remove origin"
-                   setelah ter connect ke remote branch di github, maka dapat melakukan push code kedalam remote branch dengan syntax "git push -u origin main/master"
-                   
+                   setelah ter connect ke remote branch di github, maka dapat melakukan push code kedalam remote branch dengan syntax "git push -u origin main"
 git push		-> untuk melakukan push code digunakan perintah git push -u origin main
-git fetch		-> 
-
+git fetch		-> mengambil code dari remote repo kedalam local repo
+git pull		-> mengambil code dari remote repo langsung kedalam working directory
+git checkout    -> digunakan untuk mengecek update apasaja yang terjadi dalam remote github tanpa harus menyimpan file kedalam local directory 
+                   dan untuk kembali ke local branch menggunakan git switch main
 
 
 
