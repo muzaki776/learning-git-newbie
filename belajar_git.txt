@@ -15,7 +15,7 @@ git push		-> untuk melakukan push code digunakan perintah git push -u origin mai
 git fetch		-> mengambil code dari remote repo kedalam local repo
 git pull		-> mengambil code dari remote repo langsung kedalam working directory
 git checkout    -> digunakan untuk mengecek update apasaja yang terjadi dalam remote github tanpa harus menyimpan file kedalam local directory dengan syntax "git checkout origin/main"
-                   dan untuk kembali ke local branch menggunakan git switch main
+                   dan untuk kembali ke local branch menggunakan git switch main. checkout dan switch adalah syntax yang hampir sama.
 git branch      -> syntax "git branch <new branch>" untuk membuat branch baru. syntax "git branch" untuk melihat posisi kita dalam branch yang mana. syntax "git switch" untuk berpindah branch.
                    
 
