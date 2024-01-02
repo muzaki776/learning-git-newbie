@@ -14,8 +14,10 @@ git remote		-> remote yang berfungsi push file kedalam github, atau dapat juga p
 git push		-> untuk melakukan push code digunakan perintah git push -u origin main
 git fetch		-> mengambil code dari remote repo kedalam local repo
 git pull		-> mengambil code dari remote repo langsung kedalam working directory
-git checkout    -> digunakan untuk mengecek update apasaja yang terjadi dalam remote github tanpa harus menyimpan file kedalam local directory 
+git checkout    -> digunakan untuk mengecek update apasaja yang terjadi dalam remote github tanpa harus menyimpan file kedalam local directory dengan syntax "git checkout origin/main"
                    dan untuk kembali ke local branch menggunakan git switch main
+git branch      -> syntax "git branch <new branch>" untuk membuat branch baru. syntax "git branch" untuk melihat posisi kita dalam branch yang mana. syntax "git switch" untuk berpindah branch.
+                   
 
 
 
