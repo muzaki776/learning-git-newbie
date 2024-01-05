@@ -21,8 +21,10 @@ git branch      -> syntax "git branch <new branch>" untuk membuat branch baru. s
                    syntax "git branch -d "nama_branch" untuk menghapus branch (terdapat pesan warning apabila branch yang akan dihapus belum di merged, namun dapat force delete 
                    dengan syntax "git branch -D nama_branch, dan juga apabila ingin menghapus branch, maka harus keluar dari direktori branch tersebut)
                    syntax "git push --set-upstream origin <nama branch>" untuk membuat branch baru pada github.
-
-
+git merge       -> menggabungkan antara beberapa branch yang terupdate dengan branch yang tertinggal/ terdapat beberapa perubahan antara dua repo.
+                   menggunakan syntax "git merge nama_branch" (dengan catatan, untuk mengupdate/mengembalikan branch maka pointing branch harus sesuai dengan yang ingin diubah
+                   misalkan ingin mengupdate branch main, maka harus berada pada branch tersebut. jika ingin mengembalikan branch ke awal maka harus berada di branch tersebut, 
+                   dan masukkan syntax pada branch yang sesuai.)
 
 
 
