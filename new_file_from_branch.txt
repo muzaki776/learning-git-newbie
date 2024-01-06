@@ -1,2 +1,2 @@
 ini file dari branch cabang_baru
-hanya ada di main
+file dari cabang_baru
