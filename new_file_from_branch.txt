@@ -1,1 +1,2 @@
 ini file dari branch cabang_baru
+file dari cabang_baru
