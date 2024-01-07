@@ -6,7 +6,8 @@ git clone		-> melakukan clone local repo kedalam remote repo github ex : git clo
 git add			-> melakukan staging area local computer ex : "git add index.html", "git add ." untuk staging seluruh file
 git restore		-> undo staging file ex : "git restore --staged <file>..."
 git commit		-> tahap awal untuk memasukkan code kedalam github ex : git commit -m "html file"
-git log			-> memberikan informasi tentang perubahan yang dilakukan beserta authornya siapa
+git log			-> memberikan informasi tentang perubahan yang dilakukan beserta authornya siapa. Syntax "git log --oneline" digunakan untuk mengecek hash 
+                   pada setiap commit yang dilakukan pada local repo, yang fungsinya ada kaitan dengan git checkout.
 git remote		-> remote yang berfungsi push file kedalam github, atau dapat juga pull file dari github. ex : pengecekan remote aktif 
                    atau tidak "git remote -v", jika akan menambahkan remote branch menggunakan syntax "git remote add origin https://u(PAT)rl.git"
                    untuk mengubah nama remote branch menggunakan syntax "git remote rename <old> <new>", dan untuk menghapus menggunakan "git remote remove origin"
@@ -14,7 +15,9 @@ git remote		-> remote yang berfungsi push file kedalam github, atau dapat juga p
 git push		-> untuk melakukan push code digunakan perintah git push -u origin main
 git fetch		-> mengambil code dari remote repo kedalam local repo
 git pull		-> mengambil code dari remote repo langsung kedalam working directory
-git checkout    -> digunakan untuk mengecek update apasaja yang terjadi dalam remote github tanpa harus menyimpan file kedalam local directory dengan syntax "git checkout origin/main"
+git checkout    -> digunakan untuk mengecek update apasaja yang terjadi dalam remote github tanpa harus menyimpan file kedalam local directory 
+                   dengan syntax "git checkout origin/main". git checkout dapat mengoperasikan 3 entitas berbeda yaitu files, commits, dan branches.
+                   Dengan syntax "git checkout hash/######" dapat melakukan checkout kedalam log tersebut.
                    dan untuk kembali ke local branch menggunakan git switch main. checkout dan switch adalah syntax yang hampir sama.
 git branch      -> syntax "git branch <new branch>" untuk membuat branch baru. syntax "git branch" untuk melihat posisi kita dalam branch yang mana. syntax "git switch" untuk berpindah branch.
                    syntax "git branch -m "new_name" untuk mengubah nama branch(dengan catatan branch yang akan diubah namanya kita harus dalam working branch tersebut). 
@@ -25,7 +28,7 @@ git merge       -> menggabungkan antara beberapa branch yang terupdate dengan br
                    menggunakan syntax "git merge nama_branch" (dengan catatan, untuk mengupdate/mengembalikan branch maka pointing branch harus sesuai dengan yang ingin diubah
                    misalkan ingin mengupdate branch main, maka harus berada pada branch tersebut. jika ingin mengembalikan branch ke awal maka harus berada di branch tersebut, 
                    dan masukkan syntax pada branch yang sesuai.)
-
+git diff        -> berguna untuk melihat perubahan yang terjadi pada code yang tengah dikerjakan.
 
 
 
